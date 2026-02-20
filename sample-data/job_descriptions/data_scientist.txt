@@ -1,0 +1,28 @@
+Data Scientist - Growth & Analytics
+BrightPath Commerce | New York, NY (Remote Eligible) | Full-Time
+
+About the Role:
+We are seeking a Data Scientist to join our Growth & Analytics team. In this role, you will use statistical analysis and data storytelling to uncover insights that drive business strategy. You will partner directly with product, marketing, and executive stakeholders to inform high-impact decisions.
+
+Responsibilities:
+- Design and analyze A/B experiments and quasi-experiments to measure the impact of product changes and marketing campaigns
+- Build predictive models for customer lifetime value, conversion probability, and demand forecasting
+- Create and maintain self-serve dashboards and reports using SQL and BI tools (Looker, Tableau, or similar)
+- Perform deep-dive analyses on user behavior, funnel performance, and market trends
+- Communicate findings and recommendations to non-technical stakeholders through clear visualizations and presentations
+- Define and track key performance indicators (KPIs) across the business
+- Collaborate with data engineering to ensure data quality and pipeline reliability
+
+Requirements:
+- 3+ years of experience in a data science or advanced analytics role
+- Expert-level SQL skills and proficiency in Python or R for statistical analysis
+- Strong foundation in statistics: hypothesis testing, regression analysis, causal inference, Bayesian methods
+- Experience designing and evaluating A/B tests with statistical rigor
+- Proficiency with data visualization and dashboarding tools (Tableau, Looker, Power BI)
+- Ability to translate complex analyses into actionable business recommendations
+- Excellent written and verbal communication skills
+
+Nice to Have:
+- Experience with experimentation platforms (Optimizely, LaunchDarkly)
+- Familiarity with dbt, Airflow, or similar data transformation tools
+- Background in e-commerce, SaaS, or marketplace analytics

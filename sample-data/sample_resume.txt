@@ -1,0 +1,49 @@
+ALEX CHEN
+San Francisco, CA | alex.chen@email.com | (555) 482-9137 | linkedin.com/in/alexchen | github.com/alexchen
+
+PROFESSIONAL SUMMARY
+Data and machine learning professional with 4 years of experience building predictive models and data pipelines. Skilled in developing end-to-end ML solutions and working with cross-functional teams to deliver data-driven products. Passionate about applying advanced analytics to solve complex business problems.
+
+SKILLS
+Programming: Python, SQL, R, Bash
+ML/AI: TensorFlow, PyTorch, scikit-learn, XGBoost, Hugging Face Transformers
+Data: pandas, NumPy, Spark, Airflow, dbt
+Cloud & DevOps: AWS (S3, SageMaker, EC2, Lambda), Docker, Git, CI/CD
+Visualization: Matplotlib, Seaborn, Plotly, Tableau
+Other: A/B Testing, Statistical Analysis, REST APIs, Agile/Scrum
+
+EXPERIENCE
+
+Machine Learning Engineer | DataStream Analytics, San Francisco, CA
+June 2022 - Present
+- Developed and deployed a customer churn prediction model using gradient boosting, reducing churn by 14% and saving approximately $2.3M in annual revenue
+- Built automated ML training pipelines using Airflow and AWS SageMaker, cutting model retraining time from 8 hours to 45 minutes
+- Collaborated with product and engineering teams to integrate ML predictions into the main application, serving 50K+ daily API requests
+- Conducted A/B tests on model-driven features, analyzing results with statistical rigor to guide product decisions
+- Maintained model monitoring dashboards tracking performance drift, data quality, and prediction latency
+
+Data Analyst | Quantum Retail Solutions, Oakland, CA
+August 2020 - May 2022
+- Analyzed sales and customer behavior data across 200+ retail locations using SQL and Python, identifying trends that informed a pricing strategy increasing margins by 8%
+- Created interactive Tableau dashboards for executive leadership, consolidating 12 separate reports into a single real-time view
+- Designed and implemented an ETL pipeline processing 5M+ daily records, improving data freshness from T+2 to near real-time
+- Partnered with marketing team to build customer segmentation models, enabling targeted campaigns that improved conversion rates by 22%
+
+EDUCATION
+
+Master of Science in Computer Science (Machine Learning Specialization)
+University of California, Berkeley | May 2020
+- Relevant Coursework: Deep Learning, Natural Language Processing, Statistical Learning, Distributed Systems
+
+Bachelor of Science in Mathematics
+University of Washington, Seattle | June 2018
+
+PROJECTS
+
+Sentiment Analysis Pipeline
+- Built a text classification system using BERT fine-tuned on product review data, achieving 91% accuracy
+- Deployed the model as a REST API with FastAPI and Docker, handling 1K requests per minute
+
+Real Estate Price Predictor
+- Developed an ensemble regression model combining random forest and neural network approaches to predict housing prices within 6% median error
+- Processed and feature-engineered a dataset of 500K+ property records using pandas and scikit-learn

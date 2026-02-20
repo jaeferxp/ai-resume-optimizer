@@ -1,0 +1,28 @@
+AI Engineer - Generative AI Platform
+Arcane Systems | Austin, TX (Hybrid) | Full-Time
+
+About the Role:
+We are looking for an AI Engineer to build and scale our generative AI platform. You will design LLM-powered features, implement retrieval-augmented generation (RAG) pipelines, and create AI-driven experiences that delight our users. This is a high-impact role at the intersection of applied AI research and product engineering.
+
+Responsibilities:
+- Design and implement LLM-based applications using models from OpenAI, Anthropic, and open-source providers
+- Build and optimize RAG pipelines integrating vector databases (Pinecone, Weaviate, or ChromaDB) with large language models
+- Develop robust prompt engineering strategies and evaluation frameworks to ensure output quality and reliability
+- Fine-tune and adapt foundation models for domain-specific use cases
+- Integrate AI capabilities into production applications through well-designed APIs and SDKs
+- Implement guardrails, content filtering, and safety mechanisms for AI-generated outputs
+- Benchmark model performance across latency, cost, and quality dimensions
+
+Requirements:
+- 3+ years of software engineering experience with at least 1 year focused on LLM applications
+- Strong Python skills and experience with AI/ML frameworks (LangChain, LlamaIndex, Hugging Face)
+- Hands-on experience with vector databases and embedding models
+- Understanding of transformer architectures, attention mechanisms, and modern NLP techniques
+- Experience with prompt engineering, few-shot learning, and chain-of-thought techniques
+- Familiarity with cloud platforms (AWS, GCP, or Azure) and API development (FastAPI, Flask)
+- Knowledge of fine-tuning approaches (LoRA, QLoRA, RLHF)
+
+Nice to Have:
+- Experience with multi-modal AI (vision + language models)
+- Familiarity with AI agent frameworks and tool-use patterns
+- Background in information retrieval or search systems

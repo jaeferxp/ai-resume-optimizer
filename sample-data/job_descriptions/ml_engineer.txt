@@ -1,0 +1,27 @@
+ML Engineer - Applied Machine Learning Team
+NovaTech AI | San Francisco, CA | Full-Time
+
+About the Role:
+We are looking for an ML Engineer to design, build, and deploy production machine learning systems that power our core product features. You will work closely with data scientists, backend engineers, and product managers to bring models from prototype to production at scale.
+
+Responsibilities:
+- Develop, train, and optimize ML models for production use cases including recommendation, ranking, and personalization
+- Build and maintain robust MLOps pipelines for automated training, evaluation, and deployment
+- Design scalable model serving infrastructure handling millions of daily predictions
+- Implement A/B testing frameworks to measure model impact on key business metrics
+- Monitor model performance in production and address data drift, latency, and reliability issues
+- Collaborate with cross-functional teams to translate business requirements into ML solutions
+
+Requirements:
+- 3+ years of experience building and deploying ML models in production environments
+- Strong proficiency in Python and ML frameworks (TensorFlow, PyTorch, or similar)
+- Experience with cloud platforms (AWS, GCP, or Azure) and containerization (Docker, Kubernetes)
+- Solid understanding of ML fundamentals: supervised/unsupervised learning, feature engineering, model evaluation
+- Experience with CI/CD pipelines, model versioning, and experiment tracking (MLflow, Weights & Biases)
+- Familiarity with SQL and large-scale data processing (Spark, BigQuery)
+- Strong software engineering practices and ability to write production-quality code
+
+Nice to Have:
+- Experience with real-time inference systems and low-latency serving
+- Knowledge of deep learning architectures (transformers, CNNs, GNNs)
+- Contributions to open-source ML projects
