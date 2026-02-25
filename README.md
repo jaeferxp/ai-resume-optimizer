@@ -1,98 +1,105 @@
 # AI Resume Optimizer
 
-An AI-powered tool that tailors your resume for specific job descriptions. Built as a teaching project for an AI-assisted coding workshop.
+You just built an AI-powered app from scratch -- in about 30 minutes, using only free tools. This repo has everything from the workshop so you can revisit what we built, keep learning, and apply the same techniques to your own projects.
+
+## Workshop Slides
+
+[View the presentation (PDF)](https://drive.google.com/file/d/1tT_AOX_4LwrdNEwWUemVOtT0jNyoMViw/view?usp=sharing)
+
+---
+
+## Start Here
+
+Depending on what you want to do next:
+
+- **Rebuild it from scratch?** Follow the [Prompt Guide](prompt-guide.md) -- it has every prompt from the workshop, ready to copy-paste
+- **Quick refresher on the techniques?** Check the [Cheat Sheet](cheat-sheet.md) -- the 4 principles, a reusable prompt template, and the top 5 errors we saw
+- **Keep building?** The [Going Further](going-further.md) guide has 4 bonus sessions: PDF upload, AI clarifying questions, optimization history, and UI polish
+- **Explore more tools and resources?** The [Resources](resources.md) page has curated links -- prompt engineering guides from Anthropic/OpenAI/Google, YouTube channels, AI coding tools, and communities
+
+---
 
 ## What's In This Repo
 
-### `wow-version/` - Professional Demo (React + FastAPI)
-A polished, full-featured version running locally. Demonstrates what's possible with modern AI coding tools.
-- React + Tailwind frontend with multi-step wizard
-- FastAPI + Gemini backend with PDF parsing
-- Resume library with category organization
-- Optimization history timeline
+| Path | What It Is |
+|------|-----------|
+| [prompt-guide.md](prompt-guide.md) | The complete build guide -- Sessions 0 through 4 with prompts, instructions, and troubleshooting |
+| [cheat-sheet.md](cheat-sheet.md) | One-page quick reference: the 4 principles, prompt template, common errors and fixes |
+| [going-further.md](going-further.md) | 4 bonus sessions to keep building beyond what we covered in the workshop |
+| [resources.md](resources.md) | Curated links to prompt engineering guides, YouTube tutorials, AI tools, and communities |
+| [sample-data/](sample-data/) | The sample resume and job descriptions we used during the demo |
+| [colab-version/](colab-version/) | The complete Colab notebook with all features -- PDF upload, skill gaps, history, and more |
+| [full-version/](full-version/) | The polished React + FastAPI version from the opening demo |
 
-**[Setup instructions](wow-version/README.md)**
-
-### `colab-version/` - Google Colab Notebook (Gradio)
-A complete version that runs entirely in Google Colab. No installation required.
-- Gradio web interface with 4 tabs (Optimize, Library, History, Settings)
-- PDF upload + text paste support
-- AI-powered JD analysis and resume optimization
-- Google Drive storage by category
-
-**[Setup instructions](colab-version/README.md)**
-
-### `workshop/` - Workshop Materials
-Everything you need to run or follow the workshop.
-- **[live-demo-prompts.md](workshop/live-demo-prompts.md)** - 5-session live coding prompts (start here)
-- **[prompt-guide.md](workshop/prompt-guide.md)** - Self-paced prompt guide with troubleshooting
-- **[lesson-plan.md](workshop/lesson-plan.md)** - Detailed 60-minute instructor script with timing
-- **[presentation-plan.md](workshop/presentation-plan.md)** - Slide deck outline for Gamma
-
-### `sample-data/` - Demo Data
-- Sample resume (Alex Chen - ML/Data professional)
-- 3 job descriptions: ML Engineer, Data Scientist, AI Engineer
+---
 
 ## How the App Works
 
 ```
-Upload/paste your base resume
-        |
+Paste your resume
+      |
 Paste a job description
-        |
+      |
 AI analyzes the JD --> extracts skills, keywords, requirements
-        |
-AI asks clarifying questions about your experience
-        |
-You answer the questions
-        |
-AI generates an optimized resume tailored to that job
-        |
+      |
+AI rewrites your resume tailored to that specific job
+      |
 Save it under a category (ML Engineer, Data Scientist, etc.)
 ```
 
-## The 4 Principles of AI-Assisted Coding
+The core idea: instead of manually reading job descriptions and guessing which keywords to add, you let AI do the analysis and rewriting while keeping all your real experience intact.
 
-These are the core skills taught in the workshop:
+---
 
-1. **Decompose first** - Break your project into independent pieces before opening an AI tool
-2. **One session, one task** - Each AI conversation handles ONE focused task
-3. **Feed context forward** - When starting a new session, paste your existing code so AI can build on it
-4. **Test between sessions** - Run your code after every session. Don't stack unverified changes.
+## Build It Yourself (The 5-Session Approach)
 
-## Building It Yourself (The 4-Session Approach)
-
-Using any free AI tool (Claude.ai, ChatGPT, or Gemini), you can build a working version in 4 sessions:
+During the workshop, we built a working version in 5 sessions using [Claude.ai](https://claude.ai), [ChatGPT](https://chat.openai.com), or [Google AI Studio](https://aistudio.google.com). You can redo this at your own pace:
 
 | Session | What You Build | Time |
 |---------|---------------|------|
-| 1 | Gradio app skeleton with text inputs | ~8 min |
-| 2 | Gemini AI integration for JD analysis | ~8 min |
-| 3 | Resume optimization logic | ~8 min |
-| 4 | Save to Google Drive by category | ~8 min |
+| 0 | Brainstorm and create a project brief | ~3 min |
+| 1 | Gradio web app with text inputs and a button | ~8 min |
+| 2 | Connect Gemini AI to analyze job descriptions | ~8 min |
+| 3 | AI-powered resume rewriting and optimization | ~8 min |
+| 4 | Save optimized resumes to Google Drive by category | ~8 min |
 
-Full prompts for each session are in **[workshop/prompt-guide.md](workshop/prompt-guide.md)**.
+Every prompt is in **[prompt-guide.md](prompt-guide.md)** -- just copy, paste into your AI tool, and follow the instructions.
+
+---
+
+## The 4 Principles of AI-Assisted Coding
+
+These are the techniques we practiced. They work for any AI coding project, not just this one.
+
+1. **Decompose first** -- Before opening any AI tool, break your project into small, independent pieces. We split our app into 4 sessions: UI, AI connection, optimization logic, and storage. Each piece stands on its own.
+
+2. **One session, one task** -- Every AI conversation should accomplish exactly one thing. Don't ask for "an entire app" -- ask for "a Gradio form with two text areas and a button." Focused asks get better results.
+
+3. **Feed context forward** -- When you start a new session, paste your existing code so the AI knows what you already have. Without context, it will generate something incompatible with what you built.
+
+4. **Test between sessions** -- Run your code after every session. If something breaks, fix it before moving on. Never stack untested changes -- that's how small problems become big ones.
+
+---
 
 ## Getting a Free Gemini API Key
 
 1. Go to [Google AI Studio](https://aistudio.google.com/apikey)
 2. Sign in with your Google account
 3. Click "Create API Key"
-4. Use this key in the app's settings
+4. Copy the key and paste it into the app's Settings tab
 
-## Free AI Tools
+The free tier is generous enough for everything in this workshop.
 
-- [Claude.ai](https://claude.ai) - Strong at code generation and editing
-- [ChatGPT](https://chat.openai.com) - Most widely available
-- [Google AI Studio](https://aistudio.google.com) - Access to Gemini models
+---
 
-## Tech Stack
+## Keep Learning
 
-| Component | Wow Version | Colab Version |
-|-----------|------------|---------------|
-| Frontend | React + Tailwind | Gradio |
-| Backend | FastAPI | Inline Python |
-| AI | Gemini 2.0 Flash | Gemini 2.0 Flash |
-| PDF Parsing | PyMuPDF | PyMuPDF |
-| Storage | Local filesystem | Google Drive |
-| Deployment | localhost | Colab + Gradio share link |
+- **[Going Further](going-further.md)** -- 4 bonus sessions: add PDF upload, AI clarifying questions, optimization history, and a polished UI
+- **[Resources](resources.md)** -- Prompt engineering guides from Anthropic, OpenAI, and Google. YouTube channels. AI coding tools like Cursor, Windsurf, and Claude Code. Communities to join.
+- **[Cheat Sheet](cheat-sheet.md)** -- Print this one out. The 4 principles, a fill-in-the-blank prompt template, and the 5 most common errors with fixes.
+
+---
+
+## The Skill You Learned Today
+
+The skill isn't coding. The skill is knowing how to break a problem down, give AI a focused task, and iterate when things go wrong. The tools will change every six months -- these techniques won't.

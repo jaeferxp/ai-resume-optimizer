@@ -1,6 +1,6 @@
-# Resume Optimizer - Wow Version
+# Resume Optimizer - Full Version
 
-Professional React + FastAPI demo for the AI Workshop.
+The professional version of the AI Resume Optimizer, built with React + FastAPI. This is the polished demo shown at the start of the workshop.
 
 ## Prerequisites
 
